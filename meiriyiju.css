@@ -4,6 +4,7 @@
 }
 html{
     scroll-behavior:smooth;
+    background-color:#1167b1;
 }
 body{
     font-family:sans-serif;
@@ -105,7 +106,7 @@ img{
 }
 @media all and (max-width:500px){
     .daftarIsi{
-        left:30%;
+        left:20%;
         padding:20px;
     }
     .isiDaftarIsi{
@@ -142,5 +143,8 @@ img{
     .pinyin img{
         top:1000%;
         width:600%;
+    }
+    #pinyin{
+        margin-top:30px;
     }
 }
